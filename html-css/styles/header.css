@@ -1,0 +1,17 @@
+
+.header{
+background-color: ;
+}
+
+.com-science-logo-container{
+  display:flex;
+  flex-direction: row;
+width: 1fr;
+ 
+}
+.com-science-logo{
+  width: 250px;
+  margin-left: 10px;
+  
+}
+
