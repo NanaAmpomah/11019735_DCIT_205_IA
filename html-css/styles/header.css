@@ -1,17 +1,67 @@
 
 .header{
-background-color: ;
+display:flex ;
+flex-direction: row;
+margin-top:30px;
+padding-left: 200px;
+padding-right:300px;
+margin-bottom:100px;
 }
 
 .com-science-logo-container{
   display:flex;
   flex-direction: row;
-width: 1fr;
- 
+width: 1fr; 
+position:fixed;
+z-index:100;
 }
 .com-science-logo{
   width: 250px;
-  margin-left: 10px;
+  height:50px
+}
+
+.left-section{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  width:600px;
+  margin-left :600px;
+  padding-right:200px;
+  position:fixed;
+}
+
+
+.home-tab,
+.about-tab,
+.faculty-tab,
+.research-group-tab
+ {
+  font-family: Arial;
+  font-size:12px;
+  font-weight: 600;
+  color:black;
+  cursor:pointer;
   
 }
 
+
+.home-container
+.about-container,
+.faculty-container
+{
+  width:100px;
+  padding-left:30px
+}
+.home-container{
+  padding-right:40px;
+}
+.research-group-container{
+  padding-left:0px;
+  padding-right:50px;
+  width: 200px;
+}
+
+a:link{
+  text-decoration: none;
+}
