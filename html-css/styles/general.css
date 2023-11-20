@@ -1,3 +1,22 @@
 body{
   padding-bottom:1000px;
+  background-image: url('main_bgr.png');
+}
+p{
+  font-family: Arial;
+}
+
+a:link{
+  text-decoration: none;
+  background-color: transparent;
+ 
+}
+h1{
+  color: rgb(44, 42, 88);
+  font-family: Arial;
+  font-size: 50px;
+  margin-bottom:0px;
+}
+a{
+  color:black;
 }
