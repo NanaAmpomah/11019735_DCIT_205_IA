@@ -1,0 +1,179 @@
+.page-picture-container{
+width: 1450px;
+height: 500px;
+background: rgba(12, 1, 1, 0.35);
+margin-left:300px;
+margin-top:200px;
+position: relative;
+
+}
+.page-image{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.about-us{
+  position: absolute;
+  top:160px;
+  left:700px;
+    font-size: 47px;
+    font-weight: bold;
+    color:aliceblue;
+  }
+
+
+
+.back-home-container{
+  position:absolute;
+  display:flex;
+  flex-direction: row;
+  bottom:200px;
+  left: 700px;
+}
+.back-home-container p{
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.back-home-container img{
+  width: 50px;
+}
+.welcome-container{
+  font-family:sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #2C2A58;
+  margin-top:50px;
+  text-align: center;
+}
+.first-paragraph,
+.second-paragraph,
+.third-paragraph{
+  font-size:25px;
+  font-family:sans-serif;
+  width:1500px;
+  margin-left:270px;
+  line-height: 1.625em;
+  color: rgb(156, 154, 154);
+  margin-top:20px;
+  text-align:justify;
+}
+.last-sentence{
+  text-align: center;
+  font-size:25px;
+  font-family:sans-serif;
+  color: rgb(156, 154, 154);
+  margin-bottom:40px;
+}
+.get-to-know-us-container{
+  font-family:sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #2C2A58;
+  margin-top:50px;
+  margin-left:250px;
+}
+.get-to-know-us-setter{
+  font-size:25px;
+  font-family:sans-serif;
+  color: rgb(156, 154, 154);
+  margin-bottom:40px;
+  margin-left:250px;
+}
+
+.get-to-know-us-image-container{
+  width: 800px;
+  margin-left: 250px;
+  margin-top:50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.get-to-know-us-image-container img{
+  width: 100%;
+  object-fit: cover;
+}
+.our-organization-heading{
+  font-family:sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #2C2A58;
+  
+}
+.about-the-organization{
+  font-size:25px;
+  font-family:sans-serif;
+  line-height: 1.625em;
+  color: rgb(156, 154, 154);
+  text-align: justify;
+  width:550px;
+}
+.our-organization-container{
+  position:absolute;
+  left:900px;
+}
+.our-community-container,
+.building-our-future-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 300px;
+  margin-top:200px;
+}
+.our-community,
+.distance-learning-header,
+.building-our-future-header{
+  font-family:sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #2C2A58;
+}
+.description-of-our-community,
+.description-of-distance-learning,
+.plan-on-building-the-future{
+  font-size:25px;
+  font-family:sans-serif;
+  line-height: 1.625em;
+  color: rgb(156, 154, 154);
+  text-align: justify;
+  width:500px;
+}
+.image-container{
+  position:absolute;
+  width: 700px;
+  left: 700px;
+  top:-150px;
+}
+.image-container img{
+  width: 100%;
+  object-fit: cover;
+}
+.distance-learning-image-container{
+  position:relative;
+  margin-left:300px;
+  margin-top:100px;
+  width:700px;
+}
+.distance-learning-image-container img{
+  width: 100%;
+  object-fit: cover;
+}
+.distance-learning-container{
+  position:absolute;
+  left:800px;
+  top:10px;
+  display: flex;
+  flex-direction: column;
+}
+.page-video-container{
+  width: 850px;
+  position: absolute;
+  left: 600px;
+  top:-60px;
+  margin-bottom:300px;
+}
+.page-video{
+  width: 100%;
+  object-fit: cover;
+}
+
