@@ -463,4 +463,66 @@ object-fit: cover;
   margin-left:-1px;
   background-color: rgb(160, 117, 36);
 }
+.arrow-icon{
+  width: 30px;
+  position:absolute;
+  left:13px;
+  top:13px;
+}
 
+.telephone-icon-container{
+  position:absolute;
+  top:610px;
+  display: flex;
+  flex-direction: row;
+}
+.telephone-icon{
+  width:30px ;
+  margin-right: 26px;
+}
+
+.mobile-number,
+.department-email{
+  font-size: 22px;
+  color:white;
+  
+}
+.telephone-icon2-container{
+  position:absolute;
+  top:650px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mail-icon-container{
+  position:absolute;
+  top:690px;
+  display: flex;
+  flex-direction: row;
+}
+.mail-icon{
+  width:40px ;
+  margin-right: 26px;
+}
+.department-email{
+  margin-top:6px;
+}
+.location-details{
+  position: absolute;
+  top:540px;
+  display: flex;
+  flex-direction: column;
+  left:870px;
+}
+.location-title{
+  font-size:28px;
+  color: white;
+  margin-bottom:12px;
+  font-weight: bold;
+}
+
+.location-details p{
+  font-size:22px ;
+  color: white;
+  margin-bottom: 1px;
+}
