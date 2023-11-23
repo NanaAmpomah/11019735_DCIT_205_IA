@@ -390,6 +390,9 @@ object-fit: cover;
   color: white;
   margin-bottom: 20px;
 }
+.page-summary a:hover{
+  color:rgb(131, 90, 40);
+}
 
 .academics-container{
   position:absolute;
