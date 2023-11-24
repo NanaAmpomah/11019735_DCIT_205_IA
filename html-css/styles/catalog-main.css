@@ -1,0 +1,167 @@
+.page-navigation{
+  display: flex;
+  flex-direction:row;
+  margin-left:250px;
+  margin-top:140px;
+  width: 1500px;
+  height: 60px;
+  position: relative;
+  justify-content: space-between;
+ background-color: #2C2A58;
+ 
+}
+.admission-dropdown-container{
+  position: relative;
+}
+.admission-dropdown{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  color: white;
+  width:170px;
+  position: absolute;
+  top:20px;
+  left:20px;
+  background-color: #2C2A58;
+  border:none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.caret-icon-container{
+  position:absolute;
+  left:120px;
+  top:19px;
+  cursor:pointer;
+}
+.caret-icon-container img,
+.caret-icon-container1 img{
+  width: 20px;
+}
+.academics-dropdown{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  color: white;
+  width:170px;
+  position: absolute;
+  top:20px;
+  left:200px;
+  background-color: #2C2A58;
+  border:none;
+  appearance: none;
+  cursor: pointer;
+}
+.caret-icon-container1{
+  position:absolute;
+  left:300px;
+  top:19px;
+  cursor:pointer;
+}
+.undergraduate-overview-container{
+ width:800px;
+ height: 400px;
+ display: flex;
+ position: relative;
+ margin-left: 10px;
+ margin-top:0px;
+}
+.undergraduate-container{
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left:250px;
+  position: absolute;
+  top:50px;
+  border: 1px;
+  border-radius: 2px;
+  border-color: rgb(225, 222, 222);
+  background-color: rgb(221, 214, 214);
+}
+.undergraduate-header,
+.graduate-header,
+.international-header{
+  font-size:45px;
+  margin-bottom:25px;
+  color: #000;
+  margin-left: 20px;
+}
+.undergraduate-container a,
+.graduate-container a,
+.international-container a{
+  font-size:20px;
+  color: rgb(86, 86, 181);
+  line-height: 40px;
+  margin-left: 20px;
+}
+.undergraduate-image-container{
+  margin-left:670px;
+  width:500px;
+  height:350px;
+  position: absolute;
+  top:50px;
+}
+.undergraduate-image-container img,
+.graduate-image-container img,
+.international-image-container img{
+ width: 100%;
+ height: 150%;
+  object-fit:cover ;
+}
+.graduate-overview-container{
+ width:800px;
+ height: 400px;
+ display: flex;
+ position: relative;
+ margin-left: 950px;
+ margin-top:-353px;
+}
+.graduate-container{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left:250px;
+  position: absolute;
+  top:0px;
+  border: 1px;
+  border-radius: 2px;
+  border-color: rgb(225, 222, 222);
+  background-color: rgb(221, 214, 214);
+}
+.graduate-image-container{
+  width:300px;
+  height:159px;
+  position: absolute;
+  top:0px;
+  left:555px;
+}
+.international-overview-container{
+  width:800px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  margin-left: 950px;
+  margin-top:-150px;
+ }
+ .international-image-container{
+  width:300px;
+  height:207px;
+  position: absolute;
+  top:0px;
+  left: 555px;
+}
+.international-container{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left:250px;
+  position: absolute;
+  top:0px;
+  border: 1px;
+  border-radius: 2px;
+  border-color: rgb(225, 222, 222);
+  background-color: rgb(221, 214, 214);
+}
