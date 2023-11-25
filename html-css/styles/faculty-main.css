@@ -1,0 +1,239 @@
+.about-us-container{
+  position: absolute;
+  top:250px;
+  left:1250px;
+  display: flex;
+  flex-direction: column;
+}
+.about-header{
+  font-size:30px;
+  width:200px;
+  background-color: #2C2A58;
+  color: white;
+  text-align: center;
+  margin-bottom:20px;
+  margin-left:80px;
+}
+.about-note{
+  font-size:24px;
+  text-align: justify;
+  width: 400px;
+  
+}
+.faculty-members-header{
+  font-size: 30px;
+  margin-top:-80px;
+  margin-left:-30px;
+  width: 500px;
+  height: 50px;
+  background-color:#2C2A58 ;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member-container{
+  display: flex;
+  flex-direction: row;
+  margin-top:220px;
+  margin-left:250px;
+}
+.member-container1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left:250px;
+}
+.member-container2{
+  display: flex;
+  flex-direction: row;
+  margin-top:-300px ;
+  margin-left:1050px ;
+}
+.member-container3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left:250px;
+}
+.member-container4{
+  display: flex;
+   flex-direction: row;
+  margin-top: -300px;
+  margin-left:1050px;
+}
+.member-container5{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left:250px;
+}
+.member-container6,
+.member-container8{
+  display: flex;
+   flex-direction: row;
+  margin-top: -300px;
+  margin-left:1050px;
+}
+.member-container7{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left:250px;
+}
+.image-container{
+  width:300px;
+  height: 300px;
+  border: 2px solid black;
+}
+.member-container img,
+.member-container1 img,
+.member-container2 img,
+.member-container3 img,
+.member-container4 img,
+.member-container5 img,
+.member-container6 img,
+.member-container7 img,
+.member-container8 img{
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.about-member{
+  display: flex;
+  flex-direction: column;
+  font-size:22px;
+  margin-left:-410px;
+  margin-top:50px;
+  background-color: rgb(233, 225, 225);
+  line-height:20px;
+  width:400px;
+  height: 300px;
+  justify-content: center;
+}
+.about-member1{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-left:20px;
+  margin-top: 0px;
+  background-color: rgb(233, 225, 225);
+  line-height:20px;
+  width:400px;
+  height: 300px;
+  justify-content: center;
+}
+.about-member2{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-left:20px;
+  margin-top: 20px;
+  background-color: rgb(233, 225, 225);
+  line-height:20px;
+  width:400px;
+  height: 300px;
+  justify-content: center;
+}
+.about-member3{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-left:20px;
+  margin-top: 20px;
+  background-color: rgb(233, 225, 225);
+  line-height:20px;
+  width:400px;
+  height: 300px;
+  justify-content: center;
+}
+.about-member4,
+.about-member5,
+.about-member6,
+.about-member7,
+.about-member8{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-left:20px;
+  margin-top: 20px;
+  background-color: rgb(233, 225, 225);
+  line-height:20px;
+  width:400px;
+  height: 300px;
+  justify-content: center;
+}
+.about-member div,
+.about-member1 div,
+.about-member2 div,
+.about-member3 div,
+.about-member4 div,
+.about-member5 div,
+.about-member6 div,
+.about-member7 div,
+.about-member8 div{
+  margin-left:20px;
+}
+.about-member p,
+.about-member1 p,
+.about-member2 p,
+.about-member3 p,
+.about-member4 p,
+.about-member5 p,
+.about-member6 p,
+.about-member7 p,
+.about-member8 p{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.about-member p:hover,
+.about-member1 p:hover,
+.about-member2 p:hover,
+.about-member3 p:hover,
+.about-member4 p:hover,
+.about-member5 p:hover,
+.about-member6 p:hover,
+.about-member7 p:hover,
+.about-member8 p:hover{
+ color: rgb(199, 81, 81);
+}
+.educators-header{
+  font-size: 30px;
+  margin-top:100px;
+  margin-left:650px;
+  width: 500px;
+  height: 50px;
+  background-color:#2C2A58 ;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instructors-header{
+  font-size: 30px;
+  margin-top:200px;
+  margin-left:650px;
+  width: 500px;
+  height: 50px;
+  background-color:#2C2A58 ;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.professors-header{
+  font-size: 30px;
+  margin-top:200px;
+  margin-left:650px;
+  width: 500px;
+  height: 50px;
+  background-color:#2C2A58 ;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
