@@ -1,0 +1,104 @@
+.banner-container{
+  background-color: rgb(46, 44, 44);
+  opacity: 0.7;
+  width: 1300px;
+  margin-top:50px;
+  margin-left:1000px;
+  transform: translate(-50%,50%);
+  border: 2px solid rgb(86, 86, 181);
+  overflow: hidden;
+}
+.banner-images-container{
+  width: 100%;
+  display: flex;
+  animation: slide1  24s infinite;
+}
+.banner-container img{
+  width: 100%;
+}
+@keyframes slide1 {
+  0%{
+    transform: translateX(0);
+  }
+  16%{
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateX(-100%);
+  }
+  32%{
+    transform: translateX(-100%);
+  }
+  36%{
+    transform: translateX(-200%);
+  }
+  48%{
+    transform: translateX(-200%);
+  }
+  52%{
+    transform: translateX(-300%);
+  }
+  64%{
+    transform: translateX(-300%);
+  }
+  68%{
+    transform: translateX(-400%);
+  }
+  80%{
+    transform: translateX(-400%);
+  }
+  84%{
+    transform: translateX(-500%);
+  }
+  120%{
+    transform: translateX(-500%);
+  }
+  
+}
+.research-at-the-department-container{
+  color:#2C2A58;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 200px;
+}
+.about-organisation,
+.page-distance-learning-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+.organisation-header,
+.distance-learning-header,
+.page-building-our-future-header{
+  background-color: #2C2A58;
+  color: white;
+  width: 500px;
+  font-size:24px;
+  text-align: center;
+  margin-top:90px;
+}
+.organisation-note,
+.distance-learning-note,
+.building-our-future-note{
+ font-size: 24px;
+ color: rgb(169, 145, 145);
+ width: 500px;
+ text-align: justify;
+ margin-top: 20px;
+}
+.research-page-image-container{
+  width: 600px;
+  margin-left:900px;
+  margin-top:-350px;
+}
+.research-page-image-container img{
+  width: 100%;
+  object-fit: cover;
+}
+.page-building-our-future-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 900px;
+  margin-top:-350px;
+}
