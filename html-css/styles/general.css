@@ -9,6 +9,7 @@ a{
   text-decoration: none;
   color:black;
   transition: color 0.3s;
+  cursor: pointer;
 }
 a:hover{
 color:rgb(122, 90, 50);

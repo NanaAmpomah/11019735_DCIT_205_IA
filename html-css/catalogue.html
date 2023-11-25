@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/catalog-general.css">
+   
     <body>
       <div class="header">
         <div class="com-science-logo-container">
@@ -61,45 +63,82 @@
     <main>
       <div class="page-navigation">
         <div class="admission-dropdown-container">
-          <select class="admission-dropdown">
-            <option value="" disabled selected>ADMISSION</option>
-            <option value="first">Undergraduate</option>
-            <option value="second">Graduate</option>
-            <option value="third">International</option>
-          </select>
+          <div class="admission-dropdown" >
+            <div class="admission-header">ADMISSION</div>
+            <div class="link-container">
+              <a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Undergraduate</a>
+              <a href="http://admission.ug.edu.gh/applying/postgraduate/overview">Graduate</a>
+              <a href="http://admission.ug.edu.gh/applying/international/overview">International</a>
+            </div>
+          </div>
           <div class="caret-icon-container">
             <img src="images/3003023.webp">
           </div>
-        </div>
-        <div>
-          <select class="academics-dropdown">
-            <option value="" disabled selected>ACADEMICS</option>
-            <option value="first">Undergraduate Courses</option>
-            <option value="second">Graduate Courses(MPhil)</option>
-            <option value="third">Graduate Courses(MSc)</option>
-            <option value="fourth">Academic Calender </option>
-          </select>
+        </div >
+        <div class="academics-dropdown-container">
+          <div class="academics-dropdown">
+            <div class="acadmics-header">ACADEMICS</div>
+            <div class="link-container">
+              <a>Undergraduate Courses</a>
+              <a >Graduate Courses(MPhil)</a>
+              <a>Graduate Courses(MSc)</a>
+              <a>Academic Calender </a>
+            </div>
+            
+          </div>
           <div class="caret-icon-container1">
             <img src="images/3003023.webp">
           </div>
+        </div>
+        <div class="alumni-dropdown-container"> 
+        <div class="alumni-dropdown">
+          <div>ALUMNI</div>
+          <div class="link-container">
+            <a href="https://alumni.ug.edu.gh/">Home</a>
+            <a href="/node/41">About Us</a></option>
+            <a href="/node/28">Benefits</a>
+            <a href="http://alumni.ug.edu.gh/node/74">Connect</a>
+            <a href="/node/40">Events</a></option>
+            <a href="/node/32">Membership</a>
+          </div>
+        </div>
+        <div>
+          <div class="caret-icon-container2">
+            <img src="images/3003023.webp">
+          </div>
+        </div>
+        </div>
+        <div class="halls-hostels-container">
+          <a href="http://alumni.ug.edu.gh/node/45">HALLS/HOSTELS</a>
+        </div>
+        <div class="constitution-container">
+         <a href="http://alumni.ug.edu.gh/sites/alumni.ug.edu.gh/files/CONSTITUTION%20OF%20THE%20UNIVERSITY%20OF%20GHANA%20ALUMNI%20ASSOCIATION.pdf">
+          CONSTITUTION
+        </a> 
+        </div>
+        <div class="examination-regulation-container">
+         <a>EXAMINATION REGULATIONS</a> 
+        </div>
+        <div class="contact-us-container">
+          <a href="http://alumni.ug.edu.gh/node/44">CONTACT US</a>
         </div>
       </div>
     
         <div class="undergraduate-overview-container">
           <div class="undergraduate-container">
            <div class="undergraduate-header">Undergraduate</div>
-           <a href="">Overview</a>
-           <a>Entry Requirements</a>
-           <a>Deadlines</a>
-           <a>Cut off</a>
-           <a>Available Programmes</a>
-           <a>Duration of Programmes</a>
-           <a>How to Apply</a>
-           <a>General Information for Applicants</a>
-           <a>Distance/HND to Degree</a>
-           <a>Mature Applicants</a>
-           <a>Distance Education Programme</a>
-           <a href="">Help Desk</a>
+           <a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Overview</a>
+           <a href="/applying/content/entry-requirements">Entry Requirements</a>
+           <a href="/applying/admission-deadlines">Deadlines</a>
+           <a href="/applying/content/cut-points">Cut off</a>
+           <a href="/applying/content/available-programmes">Available Programmes</a>
+           <a href="/applying/undergraduate/duration-programmes-0">Duration of Programmes</a>
+           <a href="/applying/content/how-apply-ghanaian-applicants">How to Apply</a>
+           <a href="/applying/content/general-information-all-undergraduate-applicants">General Information for Applicants</a>
+           <a href="/applying/content/diplomahnd-degree">Diploma/HND to Degree</a>
+           <a href="/applying/undergraduate/mature-entry/ba-distance-learning">Mature Applicants</a>
+           <a href="/applying/distance/undergraduate-overview">Distance Education Programme</a>
+           <a href="/applying/content/help-desk">Help Desk</a>
           </div>
           <div class="undergraduate-image-container">
            <img src="images/under_grad_main.jpg">
@@ -108,10 +147,10 @@
          <div class="graduate-overview-container">
           <div class="graduate-container">
             <div class="graduate-header">Graduate</div>
-            <a href="">Overview</a>
-            <a href="">How To Apply</a>
-            <a href="">Available Programmes</a>
-            <a href="">Entry Requirements</a>
+            <a href="http://admission.ug.edu.gh/applying/postgraduate/overview">Overview</a>
+            <a href="/applying/postgraduate/how-apply-graduate-programmes">How To Apply</a>
+            <a href="/applying/postgraduate/graduate-academic-programmes">Available Programmes</a>
+            <a href="/applying/postgraduate/entry-requirements-post-graduate-admissions">Entry Requirements</a>
           </div>
           <div class="graduate-image-container">
             <img src="images/grad_main_2.jpg">
@@ -120,19 +159,130 @@
          <div class="international-overview-container">
           <div class="international-container">
             <div class="international-header">International</div>
-            <a href="">Overview</a>
-            <a href="">Available Programmes</a>
-            <a href="">Entry Requirements</a>
-            <a href="">Help Desk</a>
-            <a href="">How to Apply</a>
-            <a href="">Apply Now</a>
+            <a href="http://admission.ug.edu.gh/applying/international/overview">Overview</a>
+            <a href="/applying/international/programmes">Available Programmes</a>
+            <a href="/applying/content/entry-requirements">Entry Requirements</a>
+            <a href="/applying/international/helpdesk">Help Desk</a>
+            <a href="/applying/international/how-to-apply">How to Apply</a>
+            <a href="/applying/international/how-to-apply">Apply Now</a>
           </div>
           <div class="international-image-container">
             <img src="images/intl_main_2.jpg">
           </div>
          </div>
-      
-      
+      <div class="alumni-header">
+        Alumni
+      </div>
+      <div class="container">
+        <div class="img-container">
+           <img src="images/DSC_0146.jpg">
+           <img src="images/DSC_0323.jpg">
+           <img src="images/DSC_0372.jpg">
+           <img src="images/DSC_0292.jpg">
+        </div >
+        </div>
+        <div class="welcome-note-header">
+        Welcome to UGCSD Alumni Association
+      </div>
+      <div class="welcome-note">
+        This is our centre for activities, communication and information. If you are looking forward to regularize your membership, reconnecting with lost friends, making suggestion / comments or making donation, or indeed volunteering your time, please consider becoming more involved in the University of Ghana Alumni Association. Navigate around our site for a while and reconnect with your alma mater. Relive your days at the University of Ghana Legon.
+      </div>
+      <div class="alumni-overview-container">Alumni Overview</div>
+        <div class="alumni-overview">
+          <a href="https://alumni.ug.edu.gh/">Home</a>
+          <a href="/node/41">About Us</a>
+          <a href="/node/28">Benefits</a>
+          <a href="http://alumni.ug.edu.gh/node/74">Connect</a>
+          <a href="/node/40">Events</a>
+          <a href="/node/32">Membership</a>
+        </div>
+      <div class="student-services-header">
+        Students Services
+        </div>
+        <div class="student-services-note">
+          The Students Services and Records Unit is an administrative support unit within the Academic Affairs Directorate that is committed to providing excellent and responsive service to students, alumni, faculty and staff, and the public, with the highest standards of integrity, accuracy, efficiency, confidentiality, and security
+        </div>
+        <div class="services">Services provided include</div>
+        <ul>
+          <li><a href="student-services/attestation-introductory-letters">Attestation/Introductory Letters</a></li>
+          <li><a href="student-services/certificates">Certificates</a></li>
+          <li><a href="student-services/transcripts">Transcripts</a></li>
+          <li><a href="student-services/verification-academic-documents">Verification of Academic Documents</a></li>
+        </ul>
+      <div class="events-header">Events</div>
+      <div class="container1">
+        <div class="img-container1">
+           <img src="images/Cyber Security (1).jpg">
+           <img src="images/event3.jpeg">
+           <img src="images/shortcourse17.08.2021.jpeg">
+           <img src="images/Web Dev.png">
+        </div >
+        </div>
+        <div class="page-summary">
+          <div class="academics-container">
+           <p class="section-name"> Academics</p>
+           <a href="https://dcs.ug.edu.gh/undergrad-course">Undergraduate Courses</a>
+           <a href="https://dcs.ug.edu.gh/mphil-course">Graduate Courses(MPhil Computer Science)</a>
+           <a href="https://dcs.ug.edu.gh/msc-course">Graduate Courses(MSc Computer Science)</a>
+           <a href="https://dcs.ug.edu.gh/phd-course">Graduate Courses(PhD)</a>
+           <a href="https://www.ug.edu.gh/academics/calendar">Academic Calendar</a>
+           <a href="img/_DEPARTMENT OF COMPUTER SCIENCE, UG - 200 &amp; 300.pdf">Level 200 &amp; 300 Timetable</a>
+           <a href="https://dcs.ug.edu.gh/img/_Placements%20lvl200.pdf>Placements For Level 200 Students">
+           <a href="https://forms.gle/smoyM5M3HWaayagk7">Student Complaint Form</a>
+           <p class="additional-info">Newsletter</p>
+           <p class="updates">Stay updated with our latest</p>
+          </div>
+          <div class="admissions-container">
+           <p class="section-name">Admissions</p>
+           <a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Undergraduate</a>
+           <a href="http://admission.ug.edu.gh/applying/postgraduate/overview">Graduate</a>
+           <a href="http://admission.ug.edu.gh/applying/international/overview">International Students</a>
+           <a href="https://dcs.ug.edu.gh/entry">Entry Requirements</a>
+           <a href="https://dcs.ug.edu.gh/contact">Contact Us</a>
+           <p class="additional-info-1">Contact Us</p>
+           <p class="contact">Phone & Email</p>
+           <div class="telephone-icon-container">
+             <img class="telephone-icon" src="images/telephone-icon-removebg-preview.png">
+             <div class="mobile-number">+233 501 382 035</div>
+           </div>
+          <div class="telephone-icon2-container">
+           <img class="telephone-icon" src="images/telephone-icon-removebg-preview.png">
+           <div class="mobile-number">+233 559 145 698</div>
+          </div>
+          <div class="mail-icon-container">
+           <img class="mail-icon" src="images/mail-icon-removebg-preview.png">
+           <div class="department-email">dcs@ug.edu.gh</div>
+          </div>
+          </div>
+          <div class="research-container">
+           <p class="section-name">Research</p>
+           <a href="https://dcs.ug.edu.gh/research-dcs">Research at DCS</a>
+           <a href="https://dcs.ug.edu.gh/research-impact">Research Impact</a>
+           <a href="http://balme.ug.edu.gh/">Libraries</a>
+          </div>
+          <div class="about-the-department-container">
+           <p class="section-name">About The Department</p>
+           <a href="https://dcs.ug.edu.gh/about">Introducing DCS</a>
+           <a href="https://dcs.ug.edu.gh/officehod">Head of Department's Office</a>
+           <a href="https://dcs.ug.edu.gh/faculty">Faculty</a>
+           <a href="https://dcs.ug.edu.gh/events">Events</a>
+          </div>
+          <div class="email-address-container">
+           <input class="email-address" type="text" placeholder="Enter Email Address">
+           </div>
+           <div class="email-button-container">
+             <input class="email-button" type="text">
+             <img class="arrow-icon" src="images/arrow-removebg-preview.png">
+           </div>
+           <div class="location-details">
+             <p class="location-title">Location</p>
+             <p>University Of Ghana,</p>
+             <p>Legon Campus</p>
+             <p>Opposite Mathematics</p>
+             <p>Department</p>
+           </div>
+          </div>
+          
     </main>
   </head>
 </html>

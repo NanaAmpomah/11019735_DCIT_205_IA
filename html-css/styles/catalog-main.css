@@ -11,22 +11,53 @@
  
 }
 .admission-dropdown-container{
+  width:300px;
+  height: 80px;
   position: relative;
+  transition:opacity 0.3s;
 }
+
 .admission-dropdown{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 16px;
   color: white;
   width:170px;
   position: absolute;
   top:20px;
   left:20px;
-  background-color: #2C2A58;
   border:none;
   appearance: none;
   cursor: pointer;
+  color:white
 }
+
+.admission-dropdown-container a,
+.academics-dropdown-container a,
+.alumni-dropdown-container a{
+  margin-top:25px;
+  margin-left:1px;
+  z-index: 1;
+  color: white ;
+  line-height: 0px;
+  font-size: 20px;
+  opacity: 0;
+  
+}
+.link-container{
+  margin-top:15px;
+  background-color:#2C2A58  ;
+  opacity: 0;
+}
+.admission-dropdown-container:hover a,
+.admission-dropdown-container:hover .link-container,
+.academics-dropdown-container:hover a,
+.academics-dropdown-container:hover .link-container,
+.alumni-dropdown-container:hover a,
+.alumni-dropdown-container:hover .link-container{
+ opacity: 1;
+}
+
 
 .caret-icon-container{
   position:absolute;
@@ -35,19 +66,19 @@
   cursor:pointer;
 }
 .caret-icon-container img,
-.caret-icon-container1 img{
+.caret-icon-container1 img,
+.caret-icon-container2 img{
   width: 20px;
 }
 .academics-dropdown{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 16px;
   color: white;
   width:170px;
   position: absolute;
   top:20px;
   left:200px;
-  background-color: #2C2A58;
   border:none;
   appearance: none;
   cursor: pointer;
@@ -57,6 +88,69 @@
   left:300px;
   top:19px;
   cursor:pointer;
+}
+.alumni-dropdown-container{
+  width:300px;
+  height: 80px;
+  position: relative;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.alumni-dropdown{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: white;
+  width:170px;
+  position: absolute;
+  top:20px;
+  left:-820px;
+  border:none;
+  appearance: none;
+  cursor: pointer;
+}
+.caret-icon-container2{
+  position:absolute;
+  left:-740px;
+  top:19px;
+  cursor:pointer;
+}
+.halls-hostels-container{
+  width:170px;
+  position: absolute;
+  top:20px;
+  left:570px;
+  align-items: center;
+}
+.halls-hostels-container a,
+.constitution-container a,
+.examination-regulation-container a,
+.contact-us-container a{
+  font-size: 16px;
+  color: white;
+}
+.constitution-container{
+  width:170px;
+  position: absolute;
+  top:20px;
+  left:790px;
+  align-items: center;
+}
+.examination-regulation-container{
+  width: 300px;
+  position: absolute;
+  top:20px;
+  left: 980px;
+  align-items: center;
+}
+.contact-us-container{
+  width:200px;
+  position: absolute;
+  top:20px;
+  left: 1300px;
+  align-items: center;
 }
 .undergraduate-overview-container{
  width:800px;
@@ -164,4 +258,191 @@
   border-radius: 2px;
   border-color: rgb(225, 222, 222);
   background-color: rgb(221, 214, 214);
+}
+.alumni-header{
+  width: 300px;
+  position:absolute;
+  top:900px;
+  left: 300px;
+ background-color:#000073;
+ color:white;
+  font-size:40px;
+  text-align: center;
+}
+.container{
+  width: 500px;
+  position:absolute;
+  top:790px;
+  left:500px;
+  transform: translate(-50%,50%);
+  border: 2px solid rgb(86, 86, 181);
+  overflow: hidden;
+}
+.img-container,
+.img-container1{
+  width:100%;
+  display: flex;
+  animation: slide 16s infinite ;
+}
+.img-container img,
+.img-container1 img{
+  width: 100%;
+}
+@keyframes slide {
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+ 55%{
+  transform: translateX(-200%);
+ }
+ 75%{
+  transform: translateX(-200%);
+ }
+ 80%{
+  transform: translateX(-300%);
+ }
+ 100%{
+  transform:translateX(-300%);
+ }
+}
+.welcome-note-header{
+  display: absolute;
+  top:860px;
+  left:880px;
+ background-color:#000073;
+ color:white;
+  font-size:35px;
+  width:600px;
+  margin-left: 780px;
+}
+.welcome-note{
+  font-size:24px;
+  color:rgb(122, 113, 113);
+  width:500px;
+  text-align:justify;
+  margin-left:780px;
+  display: absolute;
+  top: 900px;
+  margin-top:65px;
+}
+.alumni-overview-container{
+  display: absolute;
+  top:500px;
+ background-color:#000073;
+ color:white;
+  font-size:35px;
+  width:300px;
+  margin-left: 1400px; 
+  margin-top: -300px;
+}
+.alumni-overview{
+  width:250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left:1400px;
+  position: absolute;
+  top:1000px;
+  border: 1px;
+  border-radius: 2px;
+  border-color: rgb(225, 222, 222);
+  background-color: rgb(221, 214, 214);
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify;
+}
+.alumni-overview a{
+  margin-left:20px;
+ color: rgb(86, 86, 181);
+}
+.student-services-header{
+  display: absolute;
+  margin-top: 500px;
+  left:880px;
+ background-color:#000073;
+ color:white;
+  font-size:35px;
+  width:600px;
+  margin-left: 350px;
+  text-align: center;
+}
+.student-services-note{
+  font-size:24px;
+  color:rgb(122, 113, 113);
+  width:500px;
+  text-align:justify;
+  margin-left:350px;
+  display: absolute;
+  margin-top:30px;
+}
+.services{
+  margin-left:350px;
+  margin-top:30px;
+  font-size:20px;
+  color:rgb(122, 113, 113);
+}
+ul{
+  line-height: 25px;
+  color:rgb(149, 186, 219);
+  margin-left:350px;
+}
+li a{
+  font-size:20px;
+}
+.container1{
+  width: 400px;
+  height: 400px;
+  position:absolute;
+  top:1350px;
+  left:1300px;
+  transform: translate(-50%,50%);
+  border: 2px solid rgb(86, 86, 181);
+  overflow: hidden;
+}
+.events-header{
+  display: absolute;
+  margin-top: -450px;
+ background-color:#000073;
+ color:white;
+  font-size:35px;
+  width:600px;
+  margin-left: 1000px;
+  text-align: center;
+}
+
+@keyframes slide {
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+ 55%{
+  transform: translateX(-200%);
+ }
+ 75%{
+  transform: translateX(-200%);
+ }
+ 80%{
+  transform: translateX(-300%);
+ }
+ 100%{
+  transform:translateX(-300%);
+ }
 }
