@@ -1,0 +1,131 @@
+.resource-banner-container{
+  margin-left:250px;
+  margin-top:100px;
+  width: 1500px;
+  position: relative;
+}
+.resource-banner-image img{
+  width: 100%;
+}
+.this-page-navigation{
+  margin-left:250px;
+  margin-top:150px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 1500px;
+  height: 60px;
+  align-items: center;
+  justify-content:center;
+  background-color:  #2C2A58;
+}
+.academic-resources-container{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  left:70px;
+  top:15px;
+}
+.social-media-container{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  left:450px;
+  top:15px;
+}
+.academic-resources-header,
+.social-media-header{
+  font-size: 24px;
+  color:white;
+}
+.academic-resources-container a,
+.social-media-container a{
+  font-size: 22px;
+  color:white;
+  line-height: 20px;
+  background-color:  #2C2A58;
+  opacity: 0;
+}
+.academic-resources-container:hover a,
+.social-media-container:hover a{
+  opacity: 1;
+}
+.academic-resources-container a:hover,
+.social-media-container a:hover{
+  color: rgb(154, 104, 43);
+}
+.faculty-resource-container{
+  position: absolute;
+  display: flex;
+  left: 850px;
+}
+.events-resource-container{
+  position: absolute;
+  display: flex;
+  left:1250px;
+}
+.faculty-resource-container a,
+.events-resource-container a{
+  font-size: 24px;
+  color: white;
+}
+.electronic-resources-container{
+  margin-top:100px;
+  position:relative;
+  margin-left:250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 214, 214);
+  width:700px;
+  height: 300px;
+  border: 2px solid wheat;
+}
+.electronic-resources-header,
+.other-free-resources,
+.databases-relevant-to-cs-header{
+  position: absolute;
+  color:black;
+  font-size: 30px;
+  left:20px;
+}
+.electronic-resources-container a,
+.other-free-resources-container a,
+.databases-relevant-to-cs-container a{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 40px;
+  font-size: 20px;
+  color: #5d57cd;
+  margin-top:20px;
+  height: 700px;
+}
+.electronic-resources-container li,
+.other-free-resources-container li,
+.databases-relevant-to-cs-container li{
+  margin-top: 30px;
+}
+.other-free-resources-container{
+  position:relative;
+  margin-left: 800px;
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 214, 214);
+  width:500px;
+  height: 300px;
+  line-height: 24px;
+  border: 2px solid wheat;
+  
+}
+.databases-relevant-to-cs-container{
+  position:relative;
+  margin-left:1200px;
+  margin-top:-700px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 214, 214);
+  width:600px;
+  height: 300px;
+  border: 2px solid wheat;
+}
