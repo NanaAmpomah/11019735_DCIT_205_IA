@@ -1,0 +1,82 @@
+.partnership-page-image-container{
+  margin-top: 100px;
+  margin-left: 250px;
+  width: 1500px;
+  height: 500px;
+  background: rgb(41, 40, 40);
+}
+.partnership-page-image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.partnership-overview-container{
+  margin-left: 250px;
+  margin-top: 200px;
+  background-color: rgb(221, 214, 214);
+  width: 580px;
+  text-align: justify;
+}
+.overview-header,
+.our-industry-partners-header,
+.internship-header{
+  font-size: 38px;
+  color:#000073;
+  margin-left:20px;
+}
+.partnership-overview-container p,
+.our-industry-partners-container p,
+.our-industry-partners-container li,
+.internship-container p{
+  font-size:24px;
+  color: rgb(58, 59, 60);
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 40px;
+}
+.overview-image-container{
+  margin-left:1000px;
+  margin-top: -400px;
+  width: 500px;
+  height: 400px;
+}
+.overview-image-container img,
+.overview-image1-container img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.overview-image1-container{
+  margin-left:1000px;
+  margin-top:100px;
+  width: 500px;
+  height: 400px;
+}
+.our-industry-partners-container{
+  margin-left: 250px;
+  margin-top: -400px;
+  background-color: rgb(221, 214, 214);
+  width: 580px;
+  text-align: justify;
+}
+.overview-image2-container{
+  width: 800px;
+}
+.internship-container{
+  margin-top:100px;
+  margin-left: 250px;
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+}
+.internship-information{
+  width: 500px;
+  height: 300px;
+}
+.overview-image2-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
