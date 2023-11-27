@@ -1,0 +1,142 @@
+.this-page-banner-container1{
+  position: relative;
+  width: 1400px;
+  height: 450px;
+  margin-left: 300px;
+  margin-top:200px;
+  background:rgba(0, 0, 0, 0.35);
+  background-color: rgb(6, 3, 3);
+  align-items: center;
+  justify-content: center;
+}
+.this-page-banner-container1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.contact-us1{
+  position: absolute;
+  font-size:40px;
+  color:white;
+  left:900px;
+  top:400px;
+}
+.send-me-home{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left:850px;
+  top:450px;
+}
+.send-me-home p,
+.send-me-home a{
+  font-size: 28px;
+  color: white;
+}
+.send-me-home img{
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.campus-directions,
+.department-mobile,
+.email-details-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.home-icon img,
+.department-icon img,
+.email-icon2 img{
+  width: 40px;
+  margin-right: 30px;
+}
+.directions,
+.mobile-container,
+.email-details{
+  display: flex;
+  flex-direction: column;
+}
+.directions div,
+.first-mobile-details div,
+.second-mobile-details div,
+.email-details div{
+  font-size:30px;
+}
+.directions p,
+.first-mobile-details p,
+.second-mobile-details p,
+.email-details p{
+  font-size: 24px;
+  color: rgb(171, 146, 146);
+}
+.name-textbox{
+  position: relative;
+  margin-left: 800px;
+ 
+  margin-top: -650px;
+}
+.user-name,
+.email-address1,
+.subject-name{
+  font-size: 30px;
+  color: rgb(176, 172, 172);
+  width: 350px;
+  height: 60px;
+  padding:10px 40px 10px 40px;
+}
+.tool-tip{
+  position: absolute;
+  bottom:-20px;
+  left:150px;
+  opacity: 0;
+  white-space: nowrap;
+}
+.name-textbox:hover .tool-tip{
+  opacity: 1;
+}
+.email-textbox{
+  position: relative;
+  margin-left: 800px;
+  margin-top: 40px;
+}
+.subject-textbox{
+  position: relative;
+  margin-left: 800px;
+  margin-top: 40px;
+}
+.textarea-container{
+  position:relative;
+  margin-left:1300px;
+  margin-top: -320px;
+  width: 370px;
+  height: 300px;
+}
+.textarea{
+  width: 100%;
+  height: 100%;
+  padding-top:20px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: rgb(176, 172, 172);
+}
+.button-container{
+  margin-top:220px;
+  margin-left:1300px;
+  
+  width: 300px;
+}
+.button-container button{
+  font-size: 24px;
+  color: white;
+  background-color: rgb(189, 150, 76);
+  padding:30px 40px 30px 40px;
+}
+.button-container:hover button {
+color:rgb(189, 150, 76) ;
+background-color: white;
+cursor: pointer;
+}
+
