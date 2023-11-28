@@ -67,7 +67,7 @@ Follow these instructions to clone and set up the project on your local machine:
 Throughout this project, I learned:  
 . Front-end development using html and css  
 .That there is the need for practice  
-.Git version control and collaboration with git
+.Git version control and collaboration with git  
 . How to solve mistakes that arise during the development process
 
 This project has been an exciting journey and I look forward to expanding it and making it better in the future
