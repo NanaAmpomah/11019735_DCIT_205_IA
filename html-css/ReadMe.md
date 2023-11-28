@@ -54,7 +54,7 @@ Follow these instructions to clone and set up the project on your local machine:
 ## Partnership
 ![Partnership](screenshots/FireShot%20Capture%20009%20-%20PARTNERSHIP%20-%20127.0.0.1.png)
 
-## Contacts
+## Contact Us
 ![Contacts](screenshots/FireShot%20Capture%20008%20-%20Contact%20Us%20-%20127.0.0.1.png)
 
 ## Resources
